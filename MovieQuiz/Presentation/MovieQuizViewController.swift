@@ -12,7 +12,7 @@ final class MovieQuizViewController: UIViewController, MovieQuizViewControllerPr
     @IBOutlet private weak var activityIndicator: UIActivityIndicatorView!
 
     private var alertPresenter: AlertProtocol?
-    private var moviePresenter: MovieQuizPresenter?
+    private var moviePresenter: MovieQuizPresenterProtocol?
 
 
     // MARK: - Lifecycle
